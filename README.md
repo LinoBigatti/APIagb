@@ -18,7 +18,7 @@ Read [this guide](https://devkitpro.org/wiki/Getting_Started) to install DevkitA
 
 ### Building the library.
 
-First, go to the directorie where you downloaded the library:
+First, go to the directory where you downloaded the library:
 
 ```bash
 cd /path/to/lib/
@@ -56,6 +56,14 @@ This demo shows the image copying routine for mode 3. You can build it like this
 make Mode3ImageDemo
 ```
 
+### Mode4Demo
+
+This demo shows the line, circle, frame and rectangle drawing algorithms for mode 4, and the mode 4 page flip handler. You can build it like this:
+
+```bash
+make Mode4Demo
+```
+
 ### Mode4ImageDemo
 
 This demo shows the image and palette copying routines for mode 4, and the mode 4 page flip handler. You can build it like this:
@@ -80,15 +88,27 @@ This demo shows the image copying routine for mode 5, and the mode 5 page flip h
 make Mode5ImageDemo
 ```
 
+### Mode5Demo
+
+This demo shows the keypad handler routines. You can build it like this:
+
+```bash
+make InputDemo
+```
+
 ## Testing on a real GBA
 
-All the demos are builded for cartridges, but you can change this to multiboot by changing the `SPECS` variable of the demo Makefile to `gba_mb`.
+All the demos were built for cartridges, but you can change this to multiboot by changing the `SPECS` variable of the demo Makefile to `gba_mb`.
+
+## Contributing
+
+To contribute, see [CONTRIBUTING.md](https://github.com/LinoBigatti/APIagb-dev/blob/developement/CONTRIBUTING.md) on the development branch.
 
 ## Built With
 
 * [DevkitPro](https://github.com/devkitPro) - The DevkitARM provider.
 * [GNU Make](https://www.gnu.org/software/make/) - The build system.
-* [GBATek](https://problemkaputt.de/gbatek.htm) - The holy grial of GBA developement.
+* [GBATek](https://problemkaputt.de/gbatek.htm) - The holy grail of GBA development.
 * [TONC](https://www.coranac.com/tonc/text/toc.htm) - The guide to GBA.
 
 ## Authors
@@ -99,6 +119,6 @@ To appear here, contribute to the library and/or its demos.
 
 ## Acknowledgments
 
-* TONC, because some of my functions are based on TONC's ones.
+* [TONC](https://www.coranac.com/tonc/text/toc.htm), because some of my functions are based on TONC's ones.
 * [Compumax](https://github.com/CompuMaxx), because he helps me when my code don't works.
 * [Kaiser](https://github.com/kaisermg5), Idem.
