@@ -40,7 +40,7 @@ int main(void) {
 	for(ii = 0; ii < 16; ii++) {
 		jj_ = 2.06666666667 * ii;
 		jj = Round(jj_);
-		m5_line(0, 0 + 8 * ii, 159, 0 + 8 * ii, m5_RGB_color(jj, 0, jj));
+		m5_line(0, 0 + 8 * ii, 160, 0 + 8 * ii, m5_RGB_color(jj, 0, jj));
 	}
 	
 	for(ii = 0; ii < 16; ii++) {
