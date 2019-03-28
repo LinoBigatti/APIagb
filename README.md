@@ -166,10 +166,6 @@ make TimerDemo
 
 All the demos were built for cartridges, but you can change this to multiboot by changing the `SPECS` variable of the demo Makefile to `gba_mb`.
 
-## Contributing
-
-To contribute, see [CONTRIBUTING.md](https://github.com/LinoBigatti/APIagb-dev/blob/developement/CONTRIBUTING.md).
-
 ## Built With
 
 * [DevkitPro](https://github.com/devkitPro) - The DevkitARM provider.
