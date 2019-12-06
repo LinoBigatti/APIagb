@@ -170,6 +170,14 @@ This demo is a remake of AffineSpriteDemo, but using hardware interrupt and vari
 make InterruptDemo
 ```
 
+### SoundDemo
+
+This demo plays some tunes on the square wave channels:
+
+```bash
+make SoundDemo
+```
+
 
 ## Testing on a real GBA
 
